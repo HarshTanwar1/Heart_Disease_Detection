@@ -2,7 +2,7 @@
 
 # ❤️ Heart Disease Detection
 
-**An end-to-end machine learning pipeline that predicts heart disease from clinical data — achieving ~88.7% accuracy with ensemble learning**
+An end-to-end machine learning pipeline that predicts heart disease from clinical data — achieving ~88.7% accuracy with ensemble learning
 
 [![Python](https://img.shields.io/badge/Python-3.10-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-F7931E?logo=scikitlearn&logoColor=white)](https://scikit-learn.org/)
