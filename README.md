@@ -21,20 +21,7 @@ This project walks through the **complete supervised-learning workflow** — fro
 
 <br>
 
-## 📊 Results at a Glance
-
-| Metric           |   Score   |
-| :--------------- | :-------: |
-| 🎯 **Accuracy**  | **88.7%** |
-| 🎯 **Precision** | **89.4%** |
-| 🎯 **Recall**    | **89.4%** |
-| 🎯 **F1 Score**  | **89.4%** |
-
-<br>
-<details>
-<summary><b>📈 Full model comparison (click to expand)</b></summary>
-
-<br>
+## 📊 Key Highlights
 
 | Model                      | Accuracy  | Precision |  Recall   | F1 Score  |
 | -------------------------- | :-------: | :-------: | :-------: | :-------: |
@@ -45,8 +32,6 @@ This project walks through the **complete supervised-learning workflow** — fro
 | Decision Tree              |   0.783   |   0.807   |   0.780   |   0.793   |
 | Voting Classifier          |   0.874   |   0.873   |   0.894   |   0.884   |
 | 🏆 **Stacking Classifier** | **0.887** | **0.894** | **0.894** | **0.894** |
-
-</details>
 
 <br>
 
@@ -63,7 +48,7 @@ This project walks through the **complete supervised-learning workflow** — fro
 
 <br>
 
-## ✨ Features & Functionalities
+## ✨ Features & Methodology
 
 - 🧹 **Data Cleaning** — handles missing values, duplicate records, structural errors, and outliers.
 - ⚙️ **Data Preprocessing** — Min-Max normalization of numerical features and encoding of categorical features.
@@ -79,12 +64,6 @@ This project walks through the **complete supervised-learning workflow** — fro
 
 Built on the [Heart Failure Prediction dataset](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction) (`heart.csv`) — **918 patient records**, **11 clinical features**, and a binary target.
 
-<br>
-<details>
-<summary><b>View feature dictionary</b></summary>
-
-<br>
-
 | Feature          | Description                                            |
 | ---------------- | ------------------------------------------------------ |
 | `Age`            | Age of the patient (years)                             |
@@ -99,8 +78,6 @@ Built on the [Heart Failure Prediction dataset](https://www.kaggle.com/datasets/
 | `Oldpeak`        | ST depression induced by exercise                      |
 | `ST_Slope`       | Slope of the peak exercise ST segment (Up, Flat, Down) |
 | `HeartDisease`   | **Target** — 1 = heart disease, 0 = normal             |
-
-</details>
 
 <br>
 
@@ -145,19 +122,6 @@ scaler = pickle.load(open("min_max_scaler.pkl", "rb"))
 
 <br>
 
-## 📁 Project Structure
-
-```
-Heart_Disease_Detection/
-├── Heart_Disease_Prediction.ipynb   # Main notebook: full ML pipeline
-├── heart.csv                        # Dataset (918 records)
-├── stacking_classifier_model.pkl    # Serialized best model
-├── min_max_scaler.pkl               # Serialized Min-Max scaler
-└── README.md
-```
-
-<br>
-
 ## 🧠 What I Learned
 
 - The **end-to-end workflow** of a supervised ML project, from raw CSV to a deployable, serialized model.
@@ -182,6 +146,6 @@ Heart_Disease_Detection/
 
 <div align="center">
 
-⭐ If you found this project useful, consider giving it a star!
+⭐ _If you found this project helpful or interesting, consider giving it a star!_ ⭐
 
 </div>
