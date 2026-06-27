@@ -90,7 +90,7 @@ git clone https://github.com/HarshTanwar1/Heart_Disease_Detection.git
 cd Heart_Disease_Detection
 ```
 
-### 2. (Recommended) Create a virtual environment
+### 2. Create a virtual environment _(recommended)_
 
 ```bash
 python3 -m venv venv
