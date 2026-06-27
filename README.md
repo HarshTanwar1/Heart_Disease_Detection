@@ -37,10 +37,10 @@ This project walks through the **complete supervised-learning workflow** — fro
 
 ## 🛠️ Tech Stack
 
-| Category          | Tools                                                          |
+| Layer             | Technologies                                                   |
 | :---------------- | :------------------------------------------------------------- |
 | **Language**      | Python 3.10                                                    |
-| **ML & Modeling** | scikit-learn (classifiers, ensembles, GridSearchCV, metrics) |
+| **ML & Modeling** | scikit-learn (classifiers, ensembles, GridSearchCV, metrics)   |
 | **Data**          | pandas, NumPy                                                  |
 | **Visualization** | Matplotlib, Seaborn                                            |
 | **Environment**   | Jupyter Notebook                                               |
